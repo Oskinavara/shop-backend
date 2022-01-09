@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_banners",
+  "info": {
+    "name": "Home Banner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slides.slide"
+    }
+  }
+}
